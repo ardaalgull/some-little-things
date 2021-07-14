@@ -1,0 +1,2 @@
+C:\Arda\Projeler\FPSGameWithoutDemos\Debug\FPSGameWithoutDemos.exe
+C:\Arda\Projeler\FPSGameWithoutDemos\Debug\FPSGameWithoutDemos.pdb
