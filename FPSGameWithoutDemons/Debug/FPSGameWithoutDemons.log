@@ -1,0 +1,3 @@
+﻿  FPSGameWithoutDemons.cpp
+C:\Arda\Projeler\FPSGameWithoutDemons\FPSGameWithoutDemons.cpp(124,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  FPSGameWithoutDemons.vcxproj -> C:\Arda\Projeler\FPSGameWithoutDemons\Debug\FPSGameWithoutDemons.exe
