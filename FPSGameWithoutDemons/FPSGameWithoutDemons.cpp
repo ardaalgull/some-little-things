@@ -157,7 +157,14 @@ int main()
 					screen[y * nScreenWidth + x] = nShade;
 				else 
 				{
-					screen[y * nScreenWidth + x] = ' ';
+					float b = 1.0f - (((float)y - nScreenHeight / 2.0f) / ((float)nScreenHeight / 2.0f));
+					if (b < 0.25) nShade = '#';
+					else if (b < 0.5) nShade = 'X';
+					else if (b < 0.75) nShade = '.';
+					else if (b < 0.9) nShade = '-';
+					else nShade = ' ';
+
+					screen[y * nScreenWidth + x] = nShade;
 				}
 				    
 
