@@ -1,0 +1,1 @@
+To play handly, you should set th terminal size to 80x80 
